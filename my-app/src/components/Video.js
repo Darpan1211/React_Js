@@ -9,6 +9,9 @@ function Video(){
     <img src="https://i.imgur.com/MK3eW3As.jpg" alt="Katherine Johnson" />
     <div className={bgcolor} style={{backgroundColor:'red'}}>{Topic} Tutorial- Components</div>
   </>
+
+
+
 )}
 
 function Thumb(){
