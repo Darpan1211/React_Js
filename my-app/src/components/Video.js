@@ -1,7 +1,10 @@
 
 function Video(){
     return <div>Video</div>
-
 }
 
-export default Video;
+function Thumb(){
+    return <div>Thumb</div>
+}
+
+export {Video,Thumb};
