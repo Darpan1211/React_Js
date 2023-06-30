@@ -1,11 +1,12 @@
-import {Video,Thumb} from './components/Video';
+import Video from './components/Video';
+import './App.css'
 function app(){
   return (
-  <div>
-    <div>Hello Dost</div>
+  <div className="app">
+    <div>Videos</div>
     <Video title="node js tutorials"></Video>
     <Video bgColor="green" title="react ja tutorial"></Video>
-    <Thumb></Thumb>
+    
   </div>
   )
 }

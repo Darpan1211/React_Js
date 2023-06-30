@@ -1,21 +1,21 @@
 import './Video.css';
 
-function Video({title,bgColor}){
-  let topic = "React Js";
-let bgs = "bg";
-  
-    return (
+export default function Video({title,channel,views,time}){
+      return (
     <>
+    <div className="container">
+          <div className="pic">
     <img src="https://i.imgur.com/MK3eW3As.jpg" alt="Katherine Johnson" />
-    <div className={bgs} style={{backgroundColor:bgColor}}>{title}</div>
+    </div>
+    <div className="title">{title}</div>
+    <div className="channel">{channel}</div>
+    <div className="views">{views} views <span>.</span>{time}</div>
+    </div>
   </>
 
 
 
 )}
 
-function Thumb(){
-    return <div>Thumb</div>
-}
 
-export {Video,Thumb};
+
