@@ -4,8 +4,8 @@ function app(){
   return (
   <div className="app">
     <div>Videos</div>
-    <Video title="node js tutorials" views= "15k" time="1 year ago"></Video>
-    <Video bgColor="green" title="react ja tutorial" views= "10k"  time="1.5 year ago"></Video>
+    <Video title="Dark" views= "15k" time="1 year ago" channel="The Compass" url="https://marketplace.canva.com/EAFVCFkAg3w/1/0/1131w/canva-red-and-black-horror-movie-poster-AOBSIAmLWOs.jpg"></Video>
+    <Video bgColor="green" title="Wood" views= "10k"  time="1 month ago" channel="The Compass" url="https://marketplace.canva.com/EAFH3gODxw4/1/0/1131w/canva-black-%26-white-modern-mystery-forest-movie-poster-rLty9dwhGG4.jpg"></Video>
     
   </div>
   )

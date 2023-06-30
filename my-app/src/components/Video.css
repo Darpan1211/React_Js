@@ -10,11 +10,13 @@
     font-weight: bold;
     margin-bottom: 1em;
     color: azure;
+    
 }
 .channel, .views{
     font-size: small;
     color: #ccc;
     margin-bottom: 0.2em;
+    
 }
 .views span{
     padding: 0 0.5em;

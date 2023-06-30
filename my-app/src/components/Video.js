@@ -1,11 +1,11 @@
 import './Video.css';
 
-export default function Video({title,channel,views,time}){
+export default function Video({title,channel,views,time,url}){
       return (
     <>
     <div className="container">
           <div className="pic">
-    <img src="https://i.imgur.com/MK3eW3As.jpg" alt="Katherine Johnson" />
+    <img src={url} alt="Katherine Johnson" />
     </div>
     <div className="title">{title}</div>
     <div className="channel">{channel}</div>
