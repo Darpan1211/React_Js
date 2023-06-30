@@ -1,14 +1,13 @@
 import './Video.css';
 
-let Topic = "React Js";
-let bgcolor = "bg";
-
-function Video(props){
-  console.log(props);
+function Video({title,bgColor}){
+  let topic = "React Js";
+let bgs = "bg";
+  
     return (
     <>
     <img src="https://i.imgur.com/MK3eW3As.jpg" alt="Katherine Johnson" />
-    <div className={bgcolor} style={{backgroundColor:'red'}}>{props.title}</div>
+    <div className={bgs} style={{backgroundColor:bgColor}}>{title}</div>
   </>
 
 

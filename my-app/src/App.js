@@ -4,7 +4,7 @@ function app(){
   <div>
     <div>Hello Dost</div>
     <Video title="node js tutorials"></Video>
-    <Video title="react ja tutorial"></Video>
+    <Video bgColor="green" title="react ja tutorial"></Video>
     <Thumb></Thumb>
   </div>
   )
