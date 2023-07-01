@@ -12,9 +12,6 @@ export default function Video({title,channel,views,time,url}){
     <div className="views">{views} views <span>.</span>{time}</div>
     </div>
   </>
-
-
-
 )}
 
 
