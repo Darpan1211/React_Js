@@ -8,8 +8,7 @@ export default function Video({title,channel,views,time,url,verified,id}){
     <>
     <div className="container">
           <div className="pic">
-    <img src={`https://picsum.photos/id/${id}/
-    200/300`} alt="Katherine Johnson" />
+    <img src={`https://picsum.photos/id/${id}/200/300`} alt="Katherine Johnson" />
     </div>
     <div className="title">{title}</div>
     {verified?<div className="channel">{channel} ✅</div>
