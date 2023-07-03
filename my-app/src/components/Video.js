@@ -1,6 +1,6 @@
 import './Video.css';
 
-export default function Video({title,channel,views,time,url,verified}){
+export default function Video({title,channel,views,time,url,verified,id}){
 
   let channeljsx;
   
@@ -8,7 +8,8 @@ export default function Video({title,channel,views,time,url,verified}){
     <>
     <div className="container">
           <div className="pic">
-    <img src={url} alt="Katherine Johnson" />
+    <img src={`https://picsum.photos/id/${id}/
+    200/300`} alt="Katherine Johnson" />
     </div>
     <div className="title">{title}</div>
     {verified?<div className="channel">{channel} ✅</div>
