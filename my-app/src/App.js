@@ -13,7 +13,7 @@ function app(){
 
   }
   return (
-  <Resume {...obj} {obj.map(skill=>)}></Resume>
+  <Resume {...obj} ></Resume>
   )
 }
 
