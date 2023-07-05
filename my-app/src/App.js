@@ -13,7 +13,8 @@ function app(){
       )
     }
     <div style={{clear:'both'}}>
-    <PlayButton></PlayButton>
+    <PlayButton name="Play" message="play msg"></PlayButton>
+    <PlayButton name="Pause" message="Pause msg"></PlayButton>
     </div>
   </div>
   )
