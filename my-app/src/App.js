@@ -13,8 +13,8 @@ function app(){
       )
     }
     <div style={{clear:'both'}}>
-    <PlayButton message="play msg" onClick={()=>console.log('Playy')}>Play</PlayButton>
-    <PlayButton message="Pause msg" onClick={()=>alert('Pause')}>Pause</PlayButton>
+    <PlayButton message="play msg" onPlay={()=>console.log('Playy')} onPause={()=>console.log('Pause')}>Play</PlayButton>
+   {/* <PlayButton message="Pause msg" onPause={()=>alert('Pause')}>Pause</PlayButton> */}
     </div>
   </div>
   )
