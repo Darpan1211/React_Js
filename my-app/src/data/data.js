@@ -1,7 +1,7 @@
 
 const video = [{
     id : 1,
-    title: 'REact Js',
+    title: 'React Js',
     views: '15k',
     time: '1 year ago',
     channel: 'The Compass',

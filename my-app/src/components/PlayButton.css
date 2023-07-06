@@ -5,7 +5,7 @@ button{
     border-radius: 1em;
     color: white;
     cursor: pointer;
-    width: 10%;
+    width: 70%;
 }
 button:hover{
     background-color: black;
