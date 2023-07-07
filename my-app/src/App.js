@@ -2,6 +2,7 @@ import Video from "./components/Video";
 import "./App.css";
 import video from "./data/data";
 import PlayButton from "./components/PlayButton";
+import Counter from "./components/Counter";
 
 function app() {
   return (
@@ -31,8 +32,11 @@ function app() {
       <div style={{ clear: "both" }}>
         {/* <PlayButton message="Pause msg" onPause={()=>alert('Pause')}>Pause</PlayButton> */}
       </div>
+      <Counter></Counter>
     </div>
   );
 }
 
 export default app;
+
+
