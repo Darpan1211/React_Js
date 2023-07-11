@@ -10,13 +10,23 @@ function App() {
 
   const [videos,setVideos] = useState(videoDB);
   return (
-    <div className="app">
+    <div className="app" onClick={()=>console.log('app')}>
+      <div>
       <button onClick={()=>{
-        
-      }
+       
       
-    }>Add Videos</button>
-      {video.map((video) => (
+       setVideos( [...videos,{
+        id : videos.length+1,
+        title: 'Full Stack',
+        views: '15k',
+        time: '6 months ago',
+        channel: 'The Compass',
+        url: 'https://marketplace.canva.com/EAFVCFkAg3w/1/0/1131w/canva-red-and-black-horror-movie-poster-AOBSIAmLWOs.jpg',
+        verified: false    
+       }]);
+      }}>Add Videos</button>
+    </div>
+      {videos.map((video) => (
         <Video
           bgColor="green"
           key={video.id}
