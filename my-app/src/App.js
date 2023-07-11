@@ -1,13 +1,21 @@
+import { useState } from "react";
 import Video from "./components/Video";
 import "./App.css";
 import video from "./data/data";
 import PlayButton from "./components/PlayButton";
 import Counter from "./components/Counter";
+import videoDB from './data/data';
 
-function app() {
+function App() {
+
+  const [videos,setVideos] = useState(videoDB);
   return (
     <div className="app">
-      <div>Videos</div>
+      <button onClick={()=>{
+        
+      }
+      
+    }>Add Videos</button>
       {video.map((video) => (
         <Video
           bgColor="green"
@@ -37,6 +45,6 @@ function app() {
   );
 }
 
-export default app;
+export default App;
 
 
