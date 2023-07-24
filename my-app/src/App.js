@@ -14,12 +14,7 @@ function App() {
       <div></div>
       <AddVideo></AddVideo>
       {videos.map((video) => (
-
-
-
-
-
-        <Video
+       <Video
           bgColor="green"
           key={video.id}
           title={video.title}

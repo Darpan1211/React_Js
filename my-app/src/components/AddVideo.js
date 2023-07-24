@@ -1,4 +1,4 @@
-import { useState } from "react";
+import {useState} from "react";
 import "./AddVideo.css";
 function AddVideo() {
   const [video, setVideo] = useState({
@@ -11,15 +11,12 @@ function AddVideo() {
   function handleChnage(e) {
     console.log(e.target.name, e.target.value);
     setVideo({...video,
-           [e.traget.name]: e.target.value
-  });
+    [e.target.name]: e.target.value})
+   
     console.log(video);
   }
   return (
 
-
-
-    
     <form>
       <input
         type="text"
