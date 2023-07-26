@@ -6,14 +6,17 @@ function AddVideo() {
     verified: true,
     time: "1 month ago",
   });
-
-  function handleSubmit() {}
+  function handleSubmit(e
+    
+    ) {
+    e.preventDefault();
+    console.log(video);
+  }
   function handleChnage(e) {
     console.log(e.target.name, e.target.value);
     setVideo({...video,
     [e.target.name]: e.target.value})
    
-    console.log(video);
   }
   return (
 
@@ -22,7 +25,7 @@ function AddVideo() {
         type="text"
         name="title"
         onChange={handleChnage}
-        placeholder="Video"
+        placeholder="title"
       />
       <input
         type="text"
